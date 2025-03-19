@@ -1,11 +1,15 @@
-# Cody Test Plan Generator
+# Test Plan Generator
 
-A Node.js package that uses Sourcegraph Cody AI to generate detailed test plans from JIRA tickets.
+A Node.js package that uses Sourcegraph Cody AI to generate detailed test plans from JIRA tickets. 
+Uses Cody as a test plan generator.
+### Future:
+- Add more llm capabilities.
+- Make llm integration configurable.
 
 ## Installation
 
 ```bash
-npm install cody-test-plan
+npm install test-plan-agent
 ```
 
 ## Requirements
@@ -29,7 +33,7 @@ JIRA_API_TOKEN=your_jira_api_token
 ## Usage
 
 ```javascript
-const { testPlanAgent } = require('cody-test-plan');
+const { testPlanAgent } = require('test-plan-agent');
 
 // Generate a test plan for a JIRA ticket
 async function generateTestPlan() {
