@@ -1,0 +1,10 @@
+
+node_modules/
+.env
+.git/
+.github/
+test/
+examples/
+lib/
+.vscode/
+.gitignore

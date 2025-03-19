@@ -1,24 +1,26 @@
 {
-  "name": "cody-test-plan",
+  "name": "test-plan-agent",
   "version": "1.0.0",
-  "description": "Generate test plans from JIRA tickets using Cody AI",
-  "main": "index.js",
+  "description": "Agent for creating test plans using JIRA tickets as context.",
+  "main": "index.js", 
+  "files": [
+    "*.js",
+    "lib/*.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cody", "test", "jira", "automation", "test-plan"],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "@actions/exec": "^1.1.1",
-    "axios": "^1.6.0", 
-    "dotenv": "^16.3.1"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/cody-test-plan.git"
-  }
+    "url": "git+https://github.com/karun-pant/test-plan-agent.git"
+  },
+  "keywords": [
+    "test",
+    "plan",
+    "agent",
+    "agentic",
+    "aitools"
+  ],
+  "author": "Karun Pant",
+  "license": "MIT"
 }
