@@ -66,21 +66,3 @@ Returns: Promise that resolves to an object with `jiraDetails` and `testPlan` pr
 ## License
 
 MIT
-```
-
-## 7. Create .npmignore file
-
-```text:.npmignore
-node_modules/
-.env
-.git/
-.github/
-.gitignore
-test/
-examples/
-```
-
-## 8. Install the dependencies
-
-```bash
-npm install @actions/exec axios dotenv
