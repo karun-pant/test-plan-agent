@@ -1,6 +1,6 @@
 {
   "name": "test-plan-agent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Agent for creating test plans using JIRA tickets as context.",
   "main": "index.js",
   "files": [
@@ -22,8 +22,5 @@
     "aitools"
   ],
   "author": "Karun Pant",
-  "license": "MIT",
-  "dependencies": {
-    "npm": "^11.2.0"
-  }
+  "license": "MIT"
 }
